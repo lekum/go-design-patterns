@@ -18,6 +18,6 @@ func GetInstance() Singleton {
 }
 
 func (s *singleton) AddOne() int {
-	s.count += 1
+	s.count++
 	return s.count
 }
